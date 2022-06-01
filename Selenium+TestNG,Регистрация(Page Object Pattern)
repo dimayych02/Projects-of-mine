@@ -27,8 +27,8 @@ public class MailData {
     public static final String URL22 ="https://django-helpdesk-demo.herokuapp.com/tickets/";
 
     @Test
-    @Owner("Димасик")
-    @Description("Дима Красачик")
+    @Owner("Dima")
+    @Description("UI Testing")
     public void form_testing(){
         MailTesting MT = new MailTesting();
         MT.settingDriver(DriverName,DriverPath,href);
